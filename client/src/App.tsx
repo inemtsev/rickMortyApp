@@ -8,8 +8,10 @@ import NavBar from './components/NavBar';
 
 function App() {
   return (
-    <div className="App bg-gray-100 p-8">
-      <div className="header">Rick and Mortiverse</div>
+    <div className="App p-8">
+      <div className="header bg-gray-100 py-2">
+          <h1 className="text-4xl">Rick and Mortiverse</h1>
+      </div>
         <Router>
             <NavBar/>
             <Routes>

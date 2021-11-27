@@ -3,11 +3,10 @@ import React from 'react';
 const Character = (model:ICharacter) => {
     return (
         <div className="flex flex-col justify-start">
-            <div>{`Name: ${model.name}`}</div>
-            <div>{`Species: ${model.species}`}</div>
-            <div>{`Gender: ${model.gender}`}</div>
-            <div>{`Origin: ${model.origin}`}</div>
-            <div>{`Origin: ${model.origin}`}</div>
+            <div className="text-left"><span className="font-bold">Name: </span>{model.name}</div>
+            <div className="text-left"><span className="font-bold">Species: </span>{model.species}</div>
+            <div className="text-left"><span className="font-bold">Gender: </span>{model.gender}</div>
+            <div className="text-left"><span className="font-bold">Origin: </span>{model.origin}</div>
         </div>
     )
 }

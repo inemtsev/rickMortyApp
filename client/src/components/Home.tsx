@@ -14,11 +14,11 @@ const Home = () => {
     return (
         <div className="flex flex-col content-center">
             <div className="py-8">Welcome to Rick and Mortyverse</div>
-            <div className="flex flex-row">
+            <div className="flex flex-row justify-center">
                 <div className="inline-block">
                     <img src="https://rickandmortyapi.com/api/character/avatar/1.jpeg" alt="Rick"/>
                 </div>
-                <div className="inline-block">
+                <div className="inline-block ml-8">
                     <Character {...rick} />
                 </div>
             </div>
